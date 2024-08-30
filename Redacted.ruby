@@ -1,6 +1,6 @@
 puts "Please enter a Txt: "
 text = gets.chomp
-text.downcase!
+text.downcase!S
 
 puts "Please enter a Word to reduct"
 reduct = gets.chomp 
