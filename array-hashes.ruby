@@ -54,6 +54,17 @@ secret_identities.each do |hero, name|
   puts "#{hero}: ""#{name}"
 end
 
+lunch_order = {
+  "Ryan" => "wonton soup",
+  "Eric" => "hamburger",
+  "Jimmy" => "sandwich",
+  "Sasha" => "salad",
+  "Cole" => "taco"
+}
+
+lunch_order.each do |name, item|
+  puts item
+end
 
 
 
