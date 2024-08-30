@@ -34,3 +34,26 @@ family = { "Homer" => "dad",
 friends.each { |x| puts "#{x}" }
 family.each { |x, y| puts "#{x}: #{y}" }
 
+#-------------------------Iterating Over Multidimensional Arrays---------------------
+
+s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
+
+s.each{|sub_array| 
+  sub_array.each {|y| puts y}}
+
+
+#----------------------------Iterating Over Hashes -------------------------------
+secret_identities = {
+  "The Batman" => "Bruce Wayne",
+  "Superman" => "Clark Kent",
+  "Wonder Woman" => "Diana Prince",
+  "Freakazoid" => "Dexter Douglas"
+}
+  
+secret_identities.each do |hero, name|
+  puts "#{hero}: ""#{name}"
+end
+
+
+
+
